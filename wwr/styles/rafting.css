@@ -1,9 +1,15 @@
+/*I can't figure out why the variables in root aren't working. Help?*/
+
 :root {
-    --primary-color: #306fb1 /*light blue*/
-    --secondary-color: #af929d /*dusty pink*/
-    --accent1-color: #9fb798 /*tiger eye orange*/
-    --accent2-color: #b66d0d /*sage green*/
-    --heading-font: "Old Standard TT", sans-serif;
+    --primary-color: #306fb1
+        /*azul*/
+        --secondary-color: #af929d
+        /*rose quartz*/
+        --accent1-color: #6a8d73
+        /*reseda green*/
+        --accent2-color: #b66d0d
+        /*tiger's eye orange*/
+        --heading-font: "Old Standard TT", sans-serif;
     --body-font: "Montserrat", sans-serif;
 }
 
@@ -14,21 +20,27 @@
 }
 
 body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
+    font-family: montserrat, sans-serif;
+    color: #6a8d73;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+h1,
+h2 {
+    font-family: old standard tt, sans-serif;
+    color: #306fb1;
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -54,16 +66,25 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff
+    background-color: #af929d;
+    color: black;
 }
 
-article {
+.hero article {
     position: absolute;
-    color: var(--secondary-color);
+    top: 120px;
+    left: 35%;
+    width: 60%;
+    padding: 25px;
+    text-align: left;
+    opacity: 0.7;
+    background-color: #306fb1;
+    color: white;
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 130px;
+    height: auto;
+    padding: 5px;
 }
