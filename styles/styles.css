@@ -18,15 +18,15 @@ header {
 
 .grid {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    justify-content: center;
 }
 
 nav {
     background-color: var(--heading-background-color);
     padding: 1rem;
-    display:flex;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -42,7 +42,7 @@ nav a {
 
 h1 {
     color: var(--heading-background-color);
-    font-weight: 100;
+    font-weight: 500;
     border-bottom: 1px solid var(--heading-background-color);
     grid-column-start: 1;
     grid-column-end: 3;
@@ -60,7 +60,9 @@ main img {
 }
 
 
-header, .grid, footer {
+header,
+footer,
+.grid {
     max-width: 840px;
     margin: 0 auto;
 }
