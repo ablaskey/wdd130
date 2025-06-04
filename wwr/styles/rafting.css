@@ -164,7 +164,7 @@ footer {
     text-align: center;
 }
 
-figure img {
+figure img, .employees img {
     width: 180px;
     height: auto;
     padding: 10px;
@@ -175,15 +175,9 @@ figure img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-align: center;
-    
+    text-align: center;    
 }
 
-.employees img {
-    width: 250px;
-    height: auto;
-    padding: 10px;
-}
 
 form {
     width: 650px;
