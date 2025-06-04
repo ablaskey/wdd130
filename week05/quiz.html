@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Allison Blaskey | HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>HTML</legend>
+                <div class="form-item column1">
+                    <label for="q1">What does HTML stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                </div>
+                <div class="form-item column1">
+                    <label for="q2">What is the correct HTML for linking in css?</label>
+                </div>
+                <textarea id="q2" name="q2" rows="4" placeholder="place holder"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>CSS</legend>
+                <div class="form-item column2">
+                    <label for="q3">Where is the correct place to refer to an external style sheet in HTML?</label>
+                    <select id="q3" name="q3">
+                        <option value="1">In the &lt;body&gt; section</option>
+                        <option value="2">At the end of the document</option>
+                        <option value="3">In the &lt;head&gt; section</option>
+                    </select>
+                </div>
+                <div class="form-item column2">
+                    <label for="q4">What is the correct shorthand margin given top-10px bottom-10px right-5px left-3px? </label>
+                    <input type="number" id="q4" name="q4" value="10px 5px 10px 3px">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
