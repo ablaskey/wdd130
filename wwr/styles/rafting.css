@@ -205,19 +205,16 @@ legend {
     font-size: larger;
 }
 
-label, input, button, textarea {
+label, input, button, textarea, select {
     font-family: var(--body-font);
     color: black;
-}
-
-label {
     text-align: left;
     padding-right: 1rem;
+    font-size: 1.1rem;
 }
 
-input, select, textarea {
-    padding: 1rem;
-    font-size: 1.1rem;
+button {
+    text-align: center;
 }
 
 input[type="checkbox"] {
