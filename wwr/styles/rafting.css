@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header,
@@ -45,11 +45,14 @@ header nav {
     font-size: 1.5rem;
     font-weight: 700;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
     display: flex;
     justify-content: space-around;
 }
 
+header a {
+    color: black;
+}
 
 main {
     width: 840px;
