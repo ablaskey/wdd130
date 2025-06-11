@@ -60,11 +60,26 @@ main {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
     padding: 1rem;
+}
+
+h3 a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+h3 a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    grid-column: 2/3;
+    grid-row: 3/4;
 }
 
 nav,
@@ -135,17 +150,20 @@ footer {
     height: auto;
 }
 
-.history {
+.history,
+.purpose {
     margin: 1rem auto;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    place-items: center;
 }
 
-.history img {
+.history img,
+.purpose img {
     width: 200px;
     height: auto;
-    align-self: center;
 }
 
 .header {
@@ -167,7 +185,8 @@ footer {
     text-align: center;
 }
 
-figure img, .employees img {
+figure img,
+.employees img {
     width: 180px;
     height: auto;
     padding: 10px;
@@ -178,7 +197,7 @@ figure img, .employees img {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-align: center;    
+    text-align: center;
 }
 
 
@@ -208,7 +227,11 @@ legend {
     font-size: larger;
 }
 
-label, input, button, textarea, select {
+label,
+input,
+button,
+textarea,
+select {
     font-family: var(--body-font);
     color: black;
     text-align: left;
@@ -229,4 +252,3 @@ input[type="checkbox"] {
 input[type="radio"] {
     order: 0
 }
-
