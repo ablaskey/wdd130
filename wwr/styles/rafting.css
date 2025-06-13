@@ -20,6 +20,7 @@
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 header,
@@ -251,4 +252,54 @@ input[type="checkbox"] {
 
 input[type="radio"] {
     order: 0
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-family: var(--body-font);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 10px;
+    color: black;
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: #af929dab;
+    font-size: large;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: #af929d36;
+}
+
+thead, th {
+    font-weight: bold;
+}
+
+.contact a {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #af929dab;
+    color: black;
+}
+
+.contact a:hover {
+    color: black;
+    text-decoration: underline;
 }
